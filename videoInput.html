@@ -1,6 +1,35 @@
-<html>
-    <p>Here' the video: </p>
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+            <label>Username:</label>
+    <input type="text" placeholder="Enter your name:"><br>
+        <label for="p1" >Password:</label>
+    <input type="password" placeholder="Enter your password" id="p1" >
+    <br>
 
+    <label for="d1">Date of Birth:</label>
+    <input type="datetime-local" id="d1" >
+<br>
+<label><h5>Email:</h5></label>
+<input type="email" placeholder="abc@gmail.com"><br>
+<input type="file" ><br>
+<br>
+<input type="submit" onclick="alert('Form 1 Submitted Successfully')"><hr><br>
+<select>
+    <label>Gender:</label>
+    <option>Select Gender:</option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Others</option>
+</select><br>
+<input type="radio" id ="r1" name="pay">
+<label for="r1">Cash</label>
+<input type="radio" id ="r2" name="pay">
+<label for="r2">Card</label>
+<input type="submit" style="background: cyan;  border-color: skyblue;" onclick="SpeechRecognitionAlternative('Submitted Successfully')">
+<input type="reset" onclick="alert('Pleae fill out the form again!')">
+
+    <p>Here' the video: </p>
 <video  controls  width="400px" height="200px">
     <source src="videosLink/video1.mp4" type="video/mp4">
 </video><br><hr>
@@ -9,6 +38,7 @@
     <source src ="videosLink/video2.mp4" type="video/mp4">
 Video not supported 
 </video>
+<body>
 </html>
 
 <footer>
